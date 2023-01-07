@@ -8,7 +8,6 @@ tags:
   - solarpunk
   - authors
   - memex
-  - 
   - Cory Doctorow
 header:
   og_image: "/assets/images/logos/dfir_card.png"
@@ -23,7 +22,7 @@ I learned about Cory Doctorow from an interview on a small YouTube channel, [Sol
 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/eschipul/437288525/" title="Cory Doctorow @ eTech 2007"><img src="https://live.staticflickr.com/176/437288525_01a05ada4f.jpg" width="500" height="333" alt="Cory Doctorow @ eTech 2007"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
-Cory Doctorow at eTech 2007. Original image by Ed Schipul. CC-BY SA 2.0
+*Cory Doctorow at eTech 2007. Original image by Ed Schipul. CC-BY SA 2.0*
 
 Cory is a very prolific writer. He has a lot of tech commentary and is especially vocal about internet infrastructure, legislation, and copyright issues. Cool.
 

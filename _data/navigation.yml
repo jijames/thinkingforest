@@ -1,7 +1,7 @@
 # main links
-#main:
-#- title: Consulting
-#  url: "/consulting"
+main:
+- title: Tags
+  url: "/tags"
 #- title: Courses
 #  url: "https://learn.dfir.science"
 #- title: Reading
