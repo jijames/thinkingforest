@@ -119,9 +119,9 @@ author:
   location         :
   email            :
   links:
-    # - label: "Newsletter"
-    #   icon: "fas fa-fw fa-envelope"
-    #   url: "http://eepurl.com/hG9inj"
+    - label: "Medium"
+      icon: "fab fa-fw fa-medium"
+      url: "https://thinkingforest.medium.com"
     # - label: "Youtube"
     #   icon: "fab fa-yt fa-youtube"
     #   url: "https://www.youtube.com/DFIRScience?sub_confirmation=1"
