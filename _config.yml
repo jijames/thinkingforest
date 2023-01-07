@@ -18,9 +18,9 @@ minimal_mistakes_skin    : "dfirdark" #"default" # "air", "aqua", "contrast", "d
 locale                   : "en-US"
 title                    : "ThinkingForest"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "No trackers, no ads. Privacy policy: we don't collect or retain any data at all ever period."
 name                     : "Joshua I. James"
-description              : "Living and writing in the real world."
+description              : ""
 url                      : "https://ThinkingForest.org"
 baseurl                  : "/"
 repository               : "jijames/thinkingforest"
@@ -120,7 +120,7 @@ author:
   email            :
   links:
     - label: "Medium"
-      icon: "fab fa-fw fa-medium"
+      icon: "fa-brands fa-fw fa-medium"
       url: "https://thinkingforest.medium.com"
     # - label: "Youtube"
     #   icon: "fab fa-yt fa-youtube"
