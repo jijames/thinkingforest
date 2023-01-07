@@ -25,8 +25,8 @@ url                      : "https://ThinkingForest.org"
 baseurl                  : "/"
 repository               : "jijames/thinkingforest"
 teaser                   : "/assets/images/logos/dfir_squaregrid_slate.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/logos/dfir_logo_horz_light.png"
-masthead_title           : " " # overrides the website title displayed in the masthead, use " " for no title
+logo                     : #"/assets/images/logos/dfir_logo_horz_light.png"
+masthead_title           : "The Thinking Forest" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
