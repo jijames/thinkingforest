@@ -20,12 +20,23 @@ echo "tags:" >> $POST
 echo "  - writing" >> $POST
 echo "header:" >> $POST
 echo "  og_image: \"/assets/images/logos/dfir_card.png\"" >> $POST
-echo "  image: \"/assets/images/posts/headers/dfirscicover.png\"" >> $POST
+echo "  image: \"\"" >> $POST
 echo "  caption:" >> $POST
 echo "modified_time:" >> $POST
 echo "---" >> $POST
 echo " " >> $POST
 #echo "{% include video id=\"XXX\" provider=\"youtube\" %}" >> $POST
+echo '---
+
+{: #license}
+![Creative Commons Attribution 4.0 license](/assets/images/ccby4.webp){: .align-center}
+
+This work licensed under a Creative Commons Attribution 4.0 license. That means you can use it any way you like, including commercially, provided that you attribute it to me, Joshua James, and include a link to [ThinkingForest.org](https://thinkingforest.org).
+
+<https://creativecommons.org/licenses/by/4.0/>
+
+Quotations and images are not included in this license; they are included either under a limitation or exception to copyright, or on the basis of a separate license.
+' >> $POST
 
 code . $POST &
 fi

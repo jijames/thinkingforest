@@ -94,3 +94,14 @@ This is why his websites look a bit odd, maybe less orderly and polished than yo
 @Cory Doctorow — I’m very curious about the technical aspects of your knowledge management system. How do you interface with the Memex? What does search and update look like? Is everything local? Do you automate as much as possible?
 
 P.S. Getting ready to read Cory Doctorow’s [Chokepoint Capitalism](https://craphound.com/category/chokepoint/). It [looks like](https://pluralistic.net/2022/12/24/looking-back/#bragsheet) he will be on tour to talk about the book in early 2023.
+
+---
+
+{: #license}
+![Creative Commons Attribution 4.0 license](/assets/images/ccby4.webp){: .align-center}
+
+This work licensed under a Creative Commons Attribution 4.0 license. That means you can use it any way you like, including commercially, provided that you attribute it to me, Joshua I. James, and include a link to [ThinkingForest.org](https://thinkingforest.org).
+
+<https://creativecommons.org/licenses/by/4.0/>
+
+Quotations and images are not included in this license; they are included either under a limitation or exception to copyright, or on the basis of a separate license.
