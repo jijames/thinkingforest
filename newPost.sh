@@ -17,8 +17,7 @@ echo "permalink: /:year/:month/:title" >> $POST
 echo "date: \"$DATETIME\"" >> $POST
 #echo "author: \"Joshua I. James\"" >> $POST
 echo "tags:" >> $POST
-echo "  - dfir" >> $POST
-echo "  - infosec" >> $POST
+echo "  - writing" >> $POST
 echo "header:" >> $POST
 echo "  og_image: \"/assets/images/logos/dfir_card.png\"" >> $POST
 echo "  image: \"/assets/images/posts/headers/dfirscicover.png\"" >> $POST
@@ -26,7 +25,7 @@ echo "  caption:" >> $POST
 echo "modified_time:" >> $POST
 echo "---" >> $POST
 echo " " >> $POST
-echo "{% include video id=\"XXX\" provider=\"youtube\" %}" >> $POST
+#echo "{% include video id=\"XXX\" provider=\"youtube\" %}" >> $POST
 
 code . $POST &
 fi

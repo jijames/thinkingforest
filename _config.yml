@@ -16,14 +16,14 @@ minimal_mistakes_skin    : "dfirdark" #"default" # "air", "aqua", "contrast", "d
 
 # Site Settings
 locale                   : "en-US"
-title                    : "DFIRScience"
+title                    : "ThinkingForest"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Joshua I. James"
-description              : "Tutorials and research about the science and practice of digital forensics and incident response."
-url                      : "https://DFIR.Science"
+description              : "Living and writing in the real world."
+url                      : "https://ThinkingForest.org"
 baseurl                  : "/"
-repository               : "dfirscience/dfir.science"
+repository               : "jijames/thinkingforest"
 teaser                   : "/assets/images/logos/dfir_squaregrid_slate.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/logos/dfir_logo_horz_light.png"
 masthead_title           : " " # overrides the website title displayed in the masthead, use " " for no title
@@ -32,7 +32,7 @@ words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            : #"cybercrimetech"
+    shortname            : #""
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -81,7 +81,7 @@ baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : "DFIRScience"
+  username               : ""
 facebook:
   username               :
   app_id                 :
@@ -119,55 +119,55 @@ author:
   location         :
   email            :
   links:
-    - label: "Newsletter"
-      icon: "fas fa-fw fa-envelope"
-      url: "http://eepurl.com/hG9inj"
-    - label: "Youtube"
-      icon: "fab fa-yt fa-youtube"
-      url: "https://www.youtube.com/DFIRScience?sub_confirmation=1"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter"
-      url: "https://twitter.com/DFIRScience"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/DFIRScience"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/company/dfirscience"
-    - label: "Reddit"
-      icon: "fab fa-fw fa-reddit"
-      url: "https://reddit.com/u/dfirscience"
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: https://us5.list-manage.com/contact-form?u=3664f5bc2c4350bc7454f233d&form_id=42749486e45c8394701634ff776be7b8
-    - label: "Support"
-      icon: "fab fa-patreon"
-      url: https://www.patreon.com/dfirscience
+    # - label: "Newsletter"
+    #   icon: "fas fa-fw fa-envelope"
+    #   url: "http://eepurl.com/hG9inj"
+    # - label: "Youtube"
+    #   icon: "fab fa-yt fa-youtube"
+    #   url: "https://www.youtube.com/DFIRScience?sub_confirmation=1"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter"
+    #   url: "https://twitter.com/DFIRScience"
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   url: "https://github.com/DFIRScience"
+    # - label: "LinkedIn"
+    #   icon: "fab fa-fw fa-linkedin"
+    #   url: "https://linkedin.com/company/dfirscience"
+    # - label: "Reddit"
+    #   icon: "fab fa-fw fa-reddit"
+    #   url: "https://reddit.com/u/dfirscience"
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope-square"
+    #   url: https://us5.list-manage.com/contact-form?u=3664f5bc2c4350bc7454f233d&form_id=42749486e45c8394701634ff776be7b8
+    # - label: "Support"
+    #   icon: "fab fa-patreon"
+    #   url: https://www.patreon.com/dfirscience
 
 # Site Footer
 footer:
   links:
-    - label: "Youtube"
-      icon: "fab fa-yt fa-youtube"
-      url: "https://www.youtube.com/DFIRScience?sub_confirmation=1"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter"
-      url: "https://twitter.com/DFIRScience"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/company/dfirscience"
-    - label: "Reddit"
-      icon: "fab fa-fw fa-reddit"
-      url: "https://reddit.com/u/dfirscience"
-    - label: "Mastodon"
-      icon: "fab fa-fw fa-mastodon"
-      url: "https://infosec.exchange/@DFIRScience"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook"
-      url: "https://www.facebook.com/DFIRScience"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/DFIRScience"
+    # - label: "Youtube"
+    #   icon: "fab fa-yt fa-youtube"
+    #   url: "https://www.youtube.com/DFIRScience?sub_confirmation=1"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter"
+    #   url: "https://twitter.com/DFIRScience"
+    # - label: "LinkedIn"
+    #   icon: "fab fa-fw fa-linkedin"
+    #   url: "https://linkedin.com/company/dfirscience"
+    # - label: "Reddit"
+    #   icon: "fab fa-fw fa-reddit"
+    #   url: "https://reddit.com/u/dfirscience"
+    # - label: "Mastodon"
+    #   icon: "fab fa-fw fa-mastodon"
+    #   url: "https://infosec.exchange/@DFIRScience"
+    # - label: "Facebook"
+    #   icon: "fab fa-fw fa-facebook"
+    #   url: "https://www.facebook.com/DFIRScience"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/DFIRScience"
 
 
 # Reading Files
@@ -235,7 +235,7 @@ sass:
 
 
 # Outputting
-permalink: /:year/:month/:title.html
+permalink: /:year/:month/:title
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: "Asia/Seoul"
@@ -309,48 +309,15 @@ defaults:
       comments: true
       share: true
       related: true
-  # _python
-  - scope:
-      path: ""
-      type: python
-    values:
-      layout: single
-      classes: wide
-      author_profile: false
-      share: true
-      sidebar:
-        nav: "courses"
-  # _golang
-  - scope:
-      path: ""
-      type: golang
-    values:
-      layout: single
-      classes: wide
-      author_profile: false
-      share: true
-      sidebar:
-        nav: "courses"
-  # _dfs101
-  - scope:
-      path: ""
-      type: dfs101
-    values:
-      layout: single
-      classes: wide
-      author_profile: false
-      share: true
-      sidebar:
-        nav: "courses"
 
 # Collections
-collections:
-  python:
-    output: true
-    permalink: /:collection/:path/
-  golang:
-    output: true
-    permalink: /:collection/:path/
-  dfs101:
-    output: true
-    permalink: /:collection/:path/
+# collections:
+#   python:
+#     output: true
+#     permalink: /:collection/:path/
+#   golang:
+#     output: true
+#     permalink: /:collection/:path/
+#   dfs101:
+#     output: true
+#     permalink: /:collection/:path/

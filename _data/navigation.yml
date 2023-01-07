@@ -1,37 +1,16 @@
 # main links
-main:
-- title: Consulting
-  url: "/consulting"
-- title: Courses
-  url: "https://learn.dfir.science"
+#main:
+#- title: Consulting
+#  url: "/consulting"
+#- title: Courses
+#  url: "https://learn.dfir.science"
 #- title: Reading
 #  url: /reading
 #- title: Tutorials
 #  url: https://youtube.com/dfirscience
-- title: Research
-  url: /research
+#- title: Research
+#  url: /research
 #- title: Projects
 #  url: /Projects/
-- title: Contact
-  url: /contact
-#- title: Shop
-#  url: https://swag.dfir.science
-
-courses:
-- title: Digital Forensics
-  children:
-    - title: "Intro to Digital Forensics"
-      url: /dfs101/
-- title: Programming
-  children:
-    - title: "Python"
-      url: /python/
-    - title: "GO"
-      url: /golang/
-- title: Science
-- title: Support
-  children:
-    - title: "Patreon"
-      url: https://www.patreon.com/bePatron?u=16239620
-    - title: "Other"
-      url: /contact#support
+#- title: Contact
+#  url: /contact
