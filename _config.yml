@@ -120,7 +120,7 @@ author:
   email            :
   links:
     - label: "Medium"
-      icon: "fa-brands fa-fw fa-medium"
+      icon: "fab fa-fw fa-medium"
       url: "https://thinkingforest.medium.com"
     # - label: "Youtube"
     #   icon: "fab fa-yt fa-youtube"
