@@ -119,8 +119,11 @@ author:
   location         :
   email            :
   links:
+    - label: "Feed"
+      icon: "fas fa-rss-square"
+      url: "https://thinkingforest.org/feed"
     - label: "Medium"
-      icon: "fab fa-fw fa-medium"
+      icon: "fab fa-medium"
       url: "https://thinkingforest.medium.com"
     # - label: "Youtube"
     #   icon: "fab fa-yt fa-youtube"
