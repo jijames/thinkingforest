@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "The Secret to Cory Doctorow's Memex"
-permalink: /:year/:month/:title
+permalink: /:year/:month/:day/:title
 date: "2023-01-05T09:37:29-06:00"
 tags:
   - writing
