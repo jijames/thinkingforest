@@ -21,35 +21,42 @@ echo "tags:" >> $POST
 echo "  - writing" >> $POST
 echo "header:" >> $POST
 echo "  og_image: \"/assets/images/logos/dfir_card.png\"" >> $POST
-echo "  image: \"\"" >> $POST
+echo "  image:" >> $POST
 echo "  caption:" >> $POST
 echo "modified_time:" >> $POST
 echo "---" >> $POST
 echo " " >> $POST
 
 echo '
-* '${TITLE}':
+* ['${TITLE}']({% post_url '$DATE-$TITLE' %}#post):
 * [Hey look at this]({% post_url '$DATE-$TITLE' %}#linkdump): Delights to delectate.
 * [This day in history]({% post_url '$DATE-$TITLE' %}#retro): '$(date --date="1 year ago" +"%Y")',' $(date --date="5 year ago" +"%Y")',' $(date --date="10 year ago" +"%Y")', '$(date --date="15 year ago" +"%Y")', '$(date --date="20 year ago" +"%Y")'
-* [Colophon]({% post_url '$DATE-$TITLE' %}#bragsheet): Recent publications, upcoming/recent appearances, current writing projects, current reading
+* [Cognizance]({% post_url '$DATE-$TITLE' %}#bragsheet): Recent publications, upcoming/recent appearances, current writing projects, current reading
+
+' >> $POST
+
+echo '!['${TITLE}'](){: .align-center}
+{: #post}
 
 ' >> $POST
 
 echo '---
-![Creative Commons Attribution 4.0 license](/assets/images/ccby4.webp){: .align-center}
+![Hey look at this](/assets/images/lookatthis.webp){: .align-center}
 {: #linkdump}
 
 ' >> $POST
 
 echo '---
-![Creative Commons Attribution 4.0 license](/assets/images/ccby4.webp){: .align-center}
+![This day in history](/assets/images/retro.webp){: .align-center}
 {: #retro}
 
 ' >> $POST
 
 echo '---
-![Creative Commons Attribution 4.0 license](/assets/images/ccby4.webp){: .align-center}
+![Cognizance](/assets/images/cognizance.webp){: .align-center}
 {: #bragsheet}
+
+Currently writing:
 
 ' >> $POST
 
@@ -64,20 +71,18 @@ This work licensed under a Creative Commons Attribution 4.0 license. That means 
 Quotations and images are not included in this license; they are included either under a limitation or exception to copyright, or on the basis of a separate license.
 ' >> $POST
 
-echo '
-## How to get ThinkingForest
+echo "## How to get ThinkingForest
+
 Blog (no ads, tracking, or data-collection):
 
-[ThinkingForest.org](https://thinkingforest.org)
+<https://thinkingforest.org>
 
 Medium (no ads, paywalled):
 
 <https://thinkingforest.medium.com>
 
-(Latest Medium column: 
-'#$(curl -s https://thinkingforest.medium.com/feed | tail -n +17 | head -n 2)')
-
-' >> $POST
+(Latest Medium column: '#$(curl -s https://thinkingforest.medium.com/feed | tail -n +17 | head -n 2)')
+" >> $POST
 
 code . $POST &
 fi
