@@ -19,6 +19,7 @@ modified_time:
 * [A Trick for Undisturbed Writing]({% post_url 2023-01-17-A-Trick-for-Undisturbed-Writing %}#post)
 * [Cognizance]({% post_url 2023-01-17-A-Trick-for-Undisturbed-Writing %}#bragsheet): Recent publications, upcoming/recent appearances, current writing projects, current reading
 
+![Cognizance](/assets/images/posts/2023-01-17-01.jpg){: .align-center}
 {: #post}
 For the last few weeks, I've been inhaling books on writing and habit-building and setting up *systems* for daily writing. I completed and submitted my first flash fiction story. There is one major thing that made it possible - TK.
 
