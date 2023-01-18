@@ -5,6 +5,9 @@ permalink: /:year/:month/:day/:title
 date: "2023-01-17T16:16:32-06:00"
 tags:
   - writing
+  - context
+  - time
+  - editing
 header:
   og_image: "/assets/images/logos/dfir_card.png"
   image: 
@@ -13,7 +16,7 @@ modified_time:
 ---
  
 
-* [A Trick for Undisturbed Writing]({% post_url 2023-01-17-A-Trick-for-Undisturbed-Writing %}#post):
+* [A Trick for Undisturbed Writing]({% post_url 2023-01-17-A-Trick-for-Undisturbed-Writing %}#post)
 * [Cognizance]({% post_url 2023-01-17-A-Trick-for-Undisturbed-Writing %}#bragsheet): Recent publications, upcoming/recent appearances, current writing projects, current reading
 
 {: #post}
